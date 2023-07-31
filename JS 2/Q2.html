@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+<body>
+
+    <h5>Please Click On the Video once For Work the Function correctly.......</h5>
+	<video width="320" height="240"controls id="myvid">
+		
+      <source src="movie.mp4" type="video/mp4">
+
+	</video>
+
+
+
+	<script type="text/javascript">
+		
+         var newvid=document.getElementById("myvid")
+
+         newvid.addEventListener("mouseover", function() {
+         	newvid.play();
+         })
+
+
+         newvid.addEventListener("mouseout", function() {
+			newvid.pause();
+		});
+
+
+
+
+
+	</script>
+
+
+
+
+</body>
+</html>

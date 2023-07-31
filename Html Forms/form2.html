@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		
+       fieldset{
+       	border: 1px solid black;
+       	height: 350px;
+       	width: 300px;
+       	margin-left: 500px;
+       }
+      
+
+</style>
+	<title>form2</title>
+</head>
+<body>
+
+<fieldset>
+	<legend>Car Registration</legend>
+	<form>
+	<table>
+	
+<tr>
+	<td>
+		<label for="name">Owner Name</label></td>
+		<td><input type="text" name="name" placeholder="Owner Name"></td>
+	
+</tr>
+
+
+<tr>
+	<td>
+		<label for="email">Email</label></td>
+		<td><input type="E-Mail" name="Email" placeholder="Email"></td>
+	
+</tr>
+
+
+<tr>
+                    <td><label for="phone">Phone Number</label></td>
+                    <td><input type="text" placeholder="Phone Number" required></td>
+                </tr>
+
+                <tr>
+                	<td><label for="Country">Country</label></td>
+                	<td>
+                		<select>
+                			<option value="srilanka">Sri Lanka</option>
+                		</select>
+                	</td>
+
+                </tr>
+
+
+                <tr>
+                    <td><label for="model">Car Model</label></td>
+                    <td><input type="text" name="model"></td>
+                </tr>
+
+                <tr>
+                	<td><label for="mfyear">Manufacture Year</label></td>
+                	<td>
+                		<select>
+                			<option value="Select Year">Select Year</option>
+                		</select>
+                	</td>
+
+                </tr>
+
+                <tr>
+                	<td><label for="trans">Transmission</label></td>
+                	<td><input type="radio" value="manual" id="manual" name="trans">
+                	<label for="manual">Manual</label>
+                    <input type="radio" value="auto" id="auto" name="trans">
+                	<label for="auto">Auto</label></td>
+
+               <tr>
+               	<td><label for="other">Other</label></td>
+               		<td><textarea name="other" rows="3"></textarea></td>
+               </tr>
+
+               <tr>
+                    <td colspan="2">
+                        <label>
+                            <input type="checkbox" name="agree" id="agree">
+                            I agree to the conditions and terms
+                        </label>
+                    </td>
+                </tr>
+               	
+               
+
+
+               <tr><td><input type="submit" value="Submit"></td>
+               <td><input type="reset" value="reset"></td></tr>
+               
+               
+      </table>
+</form>
+</fieldset>
+</body>
+</html>

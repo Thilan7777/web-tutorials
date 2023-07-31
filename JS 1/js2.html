@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>javascript</title>
+    <script language="javascript" type="text/javascript">
+           var avg=0;
+        	function average(){
+        		 avg=tot/5;
+        		 return avg;
+
+        	}
+
+        	function grade(){
+        		if (avg>=30) {
+
+        			alert("Congrats!You Passed")
+        		}
+
+        		else{
+        			alert("Better Luck Next Time")
+        		}
+        	}
+
+        	
+        
+        
+    </script>
+</head>
+<body> 
+	<script language="javascript" type="text/javascript">
+        
+          var x;
+          var tot=0;
+          var count=5;
+
+          for (var i = 0; i < count; i++) {
+
+          	x=prompt("enter mark");
+          	tot+= parseInt(x);
+          	
+          }
+
+          document.write("Sum is:"+tot);
+          document.write("<br>");
+          document.write("average is:"+average());
+          document.write("<br>");
+
+         
+        
+          
+</script>
+<button onclick="grade()">GRADE</button>
+
+
+
+</body>
+</html>

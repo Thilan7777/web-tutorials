@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		table,tr,th,td{
+			border: 1px solid black;
+
+		}
+	</style>
+
+
+	<script type="text/javascript">
+		
+		function addrow(){
+
+             var table=document.getElementById("firstable");
+             var newline=table.insertRow();
+
+             var box1=newline.insertCell(0);
+             box1.innerHTML="New Cell1";
+             var box2=newline.insertCell(1);
+             box2.innerHTML="New Cell2";
+
+
+
+		}
+	</script>
+	
+</head>
+<body>
+
+	<table id="firstable">
+		<tr>
+			<td>Row 1 cell1</td>
+			<td>Row 2 cell2</td>
+		</tr>
+
+		<tr>
+			<td>Row 2 cell1</td>
+			<td>Row 2 cell2</td>
+		</tr>
+
+
+	</table>
+
+	<script type="text/javascript">
+		
+        
+
+
+
+
+
+	</script>
+    <br><br>
+	<button id="clickme" onclick="addrow()">Insert row</button>
+
+</body>
+</html>

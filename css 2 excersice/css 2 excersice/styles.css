@@ -1,0 +1,22 @@
+
+.cover img{
+    width: 1520px;
+    height: 500px;
+}
+
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+.details img {
+    width: 250px;
+    height: 180px;
+    background-color: white;
+    padding: 50px;
+}
+
+ul{
+    font-size: 24px;
+}

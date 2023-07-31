@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function change(color){
+		document.body.style.backgroundColor=color;
+		}
+
+		function reset(){
+			document.body.style.backgroundColor='';
+		}
+      </script>
+
+      <style type="text/css">
+
+       .colorbutton{
+       	height: 80px;
+       	width:  200px;
+       	color: white;
+       	font-size: 50px;
+       }
+
+       #red{
+       	background-color: red;
+        margin-left: 200px;
+       	margin-top: 300px;
+       }
+
+       #green{
+       	background-color: green;
+        margin-left: 200px;
+       	margin-top: 300px;
+        }
+       #blue{
+       	background-color: blue;
+       	margin-left: 200px;
+       	margin-top: 300px;
+       } 
+      	
+
+      </style>
+</head>
+<body>
+
+	
+	
+
+	<button class="colorbutton" id="red"   onmouseover="change('red')" onmouseout="reset()">RED</button>
+	<button class="colorbutton" id="green" onmouseover="change('green')" onmouseout="reset()">GREEN</button>
+	<button class="colorbutton" id="blue"  onmouseover="change('blue')" onmouseout="reset()">BLUE</button>
+
+
+	
+
+
+
+</body>
+</html>

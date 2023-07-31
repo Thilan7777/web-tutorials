@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <style type="text/css">
+           form{
+
+            margin-left: 500px;
+           }
+          #termsAndConditionsContainer {
+                display: flex;
+                align-items: flex-start;
+            }
+            
+           
+         </style>
+
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1><center>Registration Form</center></h1>
+        <form action="submit.php" method="post">
+            <table>
+                <tr>
+                    <td><label for="firstName">First Name:</label></td>
+                    <td><input type="text"id="FirstName" name="firstName" required></td>
+                </tr>
+                <tr>
+                    <td><label for="lastName">Last Name:</label></td>
+                    <td><input type="text"id="lastName" name="lastName" required></td>
+                </tr>
+                <tr>
+                    <td><label for="mobileNumber">Mobile Number:</label></td>
+                    <td><input type="text"id="mobileNumber" name="mobileNumber" required></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="text" id="email"required></td>
+                </tr>
+                <tr>
+                    <td><label for="favoriteMusic">favorite Music:</label></td>
+                    <td>
+                        <input type="checkbox" id="pop" name="favoriteMusic" value="pop">
+                        <label for="pop">Pop</label>
+                        <input type="checkbox" id="rock" name="favoriteMusic" value="rock">
+                        <label for="rock">Rock</label>
+                        <input type="checkbox" id="other" name="favoriteMusic" value="other">
+                        <label for="other">other</label>   
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="additionalDetails">additional Details:</label></td>
+                    <td><textarea id="additionalDetails"name="additionalDetails"rows="4"></textarea></td>
+                </tr>
+                <tr>
+                   
+                      <td colspan="2">
+                        <div id="termsAndConditionsContainer">
+                        <input type="checkbox" id="termsAndConditions" name="termsAndConditions"required>
+                        <label for="termsAndConditions">I agree to the terms and terms and Conditions</label>
+                        </div>
+                    
+                
+                </tr>
+            
+            </table>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="reset">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script type="text/javascript">
+		function itemremove() {
+			var drop = document.getElementById("ddlist");
+			var selectedIndex = drop.selectedIndex;
+
+			if (selectedIndex !== -1) {
+				drop.remove(selectedIndex);
+			} 
+		}
+	</script>
+	
+</head>
+<body>
+
+	<select id="ddlist">
+		<option value="line1">Line 1</option>
+		<option value="line2">Line 2</option>
+		<option value="line3">Line 3</option>
+		
+	</select>
+
+	<br><br>
+
+
+	<button onclick="itemremove()">Click This For Remove Item</button>
+
+	
+
+</body>
+</html>

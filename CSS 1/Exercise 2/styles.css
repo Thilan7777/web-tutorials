@@ -1,0 +1,81 @@
+body{
+
+	background-image: url("test.jpg");
+	background-size: cover;
+}
+
+
+.card{
+
+	background-color: black;
+	
+	width: 400px;
+	height:550px;
+    margin:auto;
+}
+
+h2{ color: white;
+	background-color: orange;
+	width: 380px;
+	height: 40px;
+	text-align: center;
+	margin-left: 10px;
+
+
+	
+}
+
+	
+
+.card label{
+	color: yellow; 
+}
+
+
+input[type="submit"]{
+	background-color: green;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 15px;
+	margin-left: 10px;
+    padding: 5px 10px;
+}
+
+input[type="checkbox"]{
+	margin-left: 110px;
+}
+
+fieldset{
+border:none;
+margin:0px auto;
+
+
+}
+
+button[type="reset"]{
+	background-color: red;
+	color: #fff;
+	cursor:pointer;
+	margin-top: 15px;
+	padding: 5px 10px;
+
+
+}
+
+.bar{
+
+	background-color: orange;
+	width: 390px;
+	height: 50px;
+	margin-left: 5px;
+
+}
+
+
+label{
+	width: 105px;
+	display: inline-block;
+	margin: 0cm;
+}
+
+
